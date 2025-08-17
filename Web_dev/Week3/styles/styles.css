@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: skyblue;
+    background-color:grey ;
+}
+
+
+header {
+    background-color: grey;
+    color: skyblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px blue;
+}
+
+header h1 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-size: 1.1em;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: grey;
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.8em;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: greenyellow;
+    color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: grey;
+    color: whitesmoke;
+    margin-top: 20px;
+    border-top: 3px solid skyblue;
+}
